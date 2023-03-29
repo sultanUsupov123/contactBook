@@ -1,0 +1,85 @@
+body{background-color: silver;
+    color: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#big-modal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: none;
+    text-align: center;
+}
+#modal{
+    display: block;
+    width: 400px;
+    background-color: rgba(198, 58, 58, 0.715);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    position: fixed;
+    top: 30%;
+    left: 34%;
+}
+#modal-close{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+form{
+    padding: 50px 30px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+input{
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+    height: 30px;
+}
+input:focus{
+    border: none;
+}
+button{
+    border: none;
+    width: 40%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #080710;
+    color: #ffffff;
+  }
+  ul{
+    width: 300px;
+    margin: 0 auto;
+  }
+  ul li{
+    list-style: none;
+  }
+  ul img{
+    width: 100%;
+  }
+  span{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #contact-block{
+    border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin: 8px 0px;
+  }
